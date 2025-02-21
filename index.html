@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Khe Papas</title>
+    <link rel="stylesheet" href="papas.css">
+</head>
+<body>
+    <h1>Catálogo de Productos - Khe Papas</h1>
+    
+    <div class="catalogo">
+        <!-- Productos Sabritas -->
+        <div class="producto" data-img="img/sabritas.jpg" data-name="Sabritas Clásicas" data-desc="Papas fritas clásicas con un toque de sal.">
+            <img src="img/sabritas.jpg" alt="Sabritas Clásicas">
+            <h2>Sabritas Clásicas $25</h2>
+            <p>Papas fritas clásicas con un toque de sal.</p>
+        </div>
+
+        <div class="producto" data-img="img/doritos.jpg" data-name="Doritos Nacho" data-desc="Totopos de maíz con sabor a queso nacho.">
+            <img src="img/doritos.jpg" alt="Doritos Nacho">
+            <h2>Doritos Nacho $25</h2>
+            <p>Totopos de maíz con sabor a queso nacho.</p>
+        </div>
+
+        <div class="producto" data-img="img/cheetos.jpg" data-name="Cheetos" data-desc="Botana de maíz con un intenso sabor a queso.">
+            <img src="img/cheetos.jpg" alt="Cheetos">
+            <h2>Cheetos $25</h2>
+            <p>Botana de maíz con un intenso sabor a queso.</p>
+        </div>
+
+        <div class="producto" data-img="img/ruffles.jpg" data-name="Ruffles" data-desc="Papas onduladas con delicioso sabor a queso.">
+            <img src="img/ruffles.jpg" alt="Ruffles">
+            <h2>Ruffles $25</h2>
+            <p>Papas onduladas con delicioso sabor a queso.</p>
+        </div>
+
+        <!-- Productos Botana Surtida Barcel -->
+        <div class="producto" data-img="img/takis.jpg" data-name="Takis Fuego" data-desc="Crujientes y picantes, con sabor a chile y limón.">
+            <img src="img/takis.jpg" alt="Takis Fuego">
+            <h2>Takis Fuego $25</h2>
+            <p>Crujientes y picantes, con sabor a chile y limón.</p>
+        </div>
+
+        <div class="producto" data-img="img/chipsa.jpg" data-name="chipsa" data-desc="Papas fritas crujientes con un sabor de sal de mar.">
+            <img src="img/chipsa.jpg" alt="Chip's Stix">
+            <h2>Chips $25</h2>
+            <p>Papas fritas crujientes con un sabor de sal de mar.</p>
+        </div>
+
+        <div class="producto" data-img="img/chipsf.jpg" data-name="chipsf" data-desc="Papas fritas crujientes con sabor a chile y limón.">
+            <img src="img/chipsf.jpg" alt="Chips Fuego">
+            <h2>Chips Fuego $25</h2>
+            <p>Papas fritas crujientes con sabor a chile y limón.</p>
+        </div>
+
+        <div class="producto" data-img="img/takisv.jpg" data-name="takisv" data-desc="Crujientes y con sabor a taco.">
+            <img src="img/takisv.jpg" alt="Takis">
+            <h2>Takis Original $25</h2>
+            <p>Crujientes y con sabor a taco.</p>
+        </div>
+
+        <div class="producto" data-img="img/chipsj.jpg" data-name="chipsj" data-desc="Papas fritas crujientes con sabor a jalapeño.">
+            <img src="img/chipsj.jpg" alt="chipsj">
+            <h2>Chips Jalapeño $25</h2>
+            <p>Papas fritas crujientes con sabor a jalapeño.</p>
+        </div>
+
+        <!-- Nuevo Producto: Skittles -->
+        <div class="producto" data-img="img/skittles.jpg" data-name="Skittles" data-desc="Dulces de colores con sabor a frutas.">
+            <img src="img/skittles.jpg" alt="Skittles">
+            <h2>Skittles $25</h2>
+            <p>Dulces de colores con sabor a frutas.</p>
+        </div>
+
+    </div>
+
+    <!-- MODAL PARA VISUALIZAR PRODUCTO INDIVIDUAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close" class="close">&times;</span>
+            <img id="modal-img" src="" alt="">
+            <h2 id="modal-title"></h2>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
+
+
+
